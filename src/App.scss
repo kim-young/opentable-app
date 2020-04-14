@@ -1,0 +1,62 @@
+html,
+body,
+main,
+#root,
+.App,
+.container,
+.row {
+  height: 100%;
+}
+
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  min-width: 350px !important;
+}
+
+.sidebar {
+  background: #ac2027;
+  padding: 1em;
+  height: 100%;
+
+  &__logo {
+    content: url(./assets/Logo_horizontal_white.svg);
+    padding-bottom: 10px;
+  }
+}
+
+.css-1wa3eu0-placeholder {
+  color: #595959 !important;
+}
+
+.dashboard {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.restaurant {
+  width: 18rem;
+  margin: 1em;
+  text-align: center;
+  border-radius: 2px;
+
+  &__image {
+    overflow: hidden;
+    border-radius: 0 !important;
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #ac2027;
+    color: #fff;
+    border: none;
+  }
+
+  &__btn:hover {
+    background-color: #e15b64;
+  }
+}

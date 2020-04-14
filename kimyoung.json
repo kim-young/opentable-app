@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Young",
+    "lastname": "Kim",
+    "age": 33,
+    "gender": "Male",
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada",
+    "nationality": "Canadian",
+    "religion": "Christian",
+    "language": ["English", "Korean"]
+  },
+  "skillsets": {
+    "programminglanguages": ["Javascript", "C#", "JSON", "ES6"],
+    "frameworks": ["React", "Redux", ".Net", "Entity Framework"],
+    "webtech": ["HTML5", "CSS3", "SASS/SCSS", "jQuery", "Bootstrap", "Ajax"],
+    "database": ["SQL Server", "MySQL"],
+    "software": ["Visual Studio", "TFS", "Git"]
+  },
+  "experience": [
+    {
+      "company": "Bell Canada",
+      "position": "Full Stack Developer",
+      "startdate": "09/2018",
+      "enddate": null,
+      "description": "perform development and support on Customer Operations Tools used by 55,000+ employees globally"
+    },
+    {
+      "company": "Government of Ontario",
+      "position": "Web Editor",
+      "startdate": "12/2017",
+      "enddate": "08/2018",
+      "description": "contributed in rebuilding the Environmental Registry"
+    }
+  ],
+  "personal": {
+    "passions": [
+      "Programming",
+      "Learning new Technology",
+      "Challenge",
+      "Sports"
+    ],
+    "hobbies": ["Soccer", "Gym", "Gaming", "Watching tutorials on Youtube"],
+    "favoritequote": [
+      {
+        "quote": "Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.",
+        "by": "Paul J. Meyer"
+      },
+      {
+        "quote": "If you spend too much time thinking about a thing, you’ll never get it done.",
+        "by": "Bruce Lee"
+      }
+    ]
+  }
+}
